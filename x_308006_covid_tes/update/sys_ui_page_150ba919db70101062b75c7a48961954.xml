@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function validateComments() {
+    //Gets called if the 'OK' dialog button is clicked
+    //Make sure dialog comments are not empty
+    var comments = gel("dial_comments").value;
+    comments = trim(comments);
+    if (comments == "") {
+       //If comments are empty stop submission
+       alert("Please provide comments to submit the dialog.");
+       return false;
+    }
+    //If comments are not empty do this...
+    GlideDialogWindow.get().destroy(); //Close the dialog window
+    g_form.setValue("comments", comments); //Set the 'Comments' field with comments in the dialog
+ }]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_308006_covid_tes_Task Comments Dialog.do</endpoint>
+        <html><![CDATA[<g:ui_form>
+  <!-- Get values from dialog preferences passed in -->
+  <g:evaluate var="jvar_short_text"
+    expression="RP.getWindowProperties().get('short_text')" />
+  <g:evaluate var="jvar_comments_text"
+    expression="RP.getWindowProperties().get('comments_text')" />
+   <!-- Set up form fields and labels -->
+   <table width="100%">
+     <tr id="description_row" valign="top">
+        <td colspan="2">
+           <!-- Short description value used as a label -->
+           ${jvar_short_text}
+        </td>
+     </tr>
+     <tr>
+       <td>
+         <!-- Comments text field (Contains comments from originating record as a default) -->
+         <g:ui_multiline_input_field name="dial_comments" id="dial_comments" label="Additional comments" value="${jvar_comments_text}" mandatory="true" />
+       </td>
+     </tr>
+     <tr>
+       <td colspan="2">
+       </td>
+     </tr>
+     <tr id="dialog_buttons">
+        <td colspan="2" align="right">
+           <!-- Pull in 'dialog_buttons_ok_cancel' UI Macro for submit/cancel buttons.
+          'ok' option will call the 'validateComments' Client script function from the UI Page-->
+           <g:dialog_buttons_ok_cancel ok="return validateComments()" ok_type="button" cancel_type="button" />
+        </td>
+     </tr>
+  </table>
+</g:ui_form>]]></html>
+        <name>Task Comments Dialog</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 18:56:41</sys_created_on>
+        <sys_id>150ba919db70101062b75c7a48961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Comments Dialog</sys_name>
+        <sys_package display_value="Covid Testing" source="x_308006_covid_tes">7b73ed11db70101062b75c7a48961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Testing">7b73ed11db70101062b75c7a48961980</sys_scope>
+        <sys_update_name>sys_ui_page_150ba919db70101062b75c7a48961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 18:56:41</sys_updated_on>
+    </sys_ui_page>
+</record_update>

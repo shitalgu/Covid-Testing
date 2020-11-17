@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2cb8c4251bb810109b5d8733cc4bcbb8" sys_domain="global" table="x_308006_covid_tes_covid_testing" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:34</sys_created_on>
+            <sys_id>68b80c251bb810109b5d8733cc4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_308006_covid_tes_covid_testing" sys_domain="global" view="Default view">2cb8c4251bb810109b5d8733cc4bcbb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:35</sys_created_on>
+            <sys_id>64b80c251bb810109b5d8733cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_308006_covid_tes_covid_testing" sys_domain="global" view="Default view">2cb8c4251bb810109b5d8733cc4bcbb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:35</sys_created_on>
+            <sys_id>e4b80c251bb810109b5d8733cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_308006_covid_tes_covid_testing" sys_domain="global" view="Default view">2cb8c4251bb810109b5d8733cc4bcbb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:35</sys_created_on>
+            <sys_id>68b80c251bb810109b5d8733cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_308006_covid_tes_covid_testing" sys_domain="global" view="Default view">2cb8c4251bb810109b5d8733cc4bcbb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>age</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:35</sys_created_on>
+            <sys_id>e8b80c251bb810109b5d8733cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_308006_covid_tes_covid_testing" sys_domain="global" view="Default view">2cb8c4251bb810109b5d8733cc4bcbb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:35</sys_created_on>
+            <sys_id>6cb80c251bb810109b5d8733cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_308006_covid_tes_covid_testing" sys_domain="global" view="Default view">2cb8c4251bb810109b5d8733cc4bcbb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:35</sys_created_on>
+            <sys_id>ecb80c251bb810109b5d8733cc4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_308006_covid_tes_covid_testing" sys_domain="global" view="Default view">2cb8c4251bb810109b5d8733cc4bcbb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:35</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_308006_covid_tes_covid_testing</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-15 06:25:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cb8c4251bb810109b5d8733cc4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_308006_covid_tes_covid_testing</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Covid Testing" source="x_308006_covid_tes">7b73ed11db70101062b75c7a48961980</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Covid Testing">7b73ed11db70101062b75c7a48961980</sys_scope>
+            <sys_update_name>sys_ui_section_2cb8c4251bb810109b5d8733cc4bcbb8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-15 06:25:34</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

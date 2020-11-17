@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Test User Class</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+	alert("g_user.Full Username = " + g_user.getFullName()
+		+ ", \n g_user.username = " + g_user.userName
+		+ ", \n g_user.userID = " + g_user.userID
+		+ ", \n g_user.hasrole = " + g_user.hasRole('client_script_admin')
+		+ ", \n g_user.hasroleexact = " + g_user.hasRoleExactly('client_script_admin'));
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 18:31:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b535a9d1db70101062b75c7a489619f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test User Class</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid Testing" source="x_308006_covid_tes">7b73ed11db70101062b75c7a48961980</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid Testing">7b73ed11db70101062b75c7a48961980</sys_scope>
+        <sys_update_name>sys_script_client_b535a9d1db70101062b75c7a489619f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 18:45:42</sys_updated_on>
+        <table/>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
